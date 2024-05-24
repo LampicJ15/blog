@@ -1,4 +1,4 @@
 ---
-title: Lampic.net
+title: Jan Lampič
 ---
 
