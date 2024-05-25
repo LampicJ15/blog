@@ -42,7 +42,7 @@ have properties.
 Below is an example of a property graph model. Cool right, looks just like something
 you could draw up on a whiteboard.
 
-![property_graph_model_example.png](..%2Fdocs%2Fassets%2Fimages%2Fproperty_graph_model_example.png)
+![property_graph_model_example.png](/blog/docs/assets/images/property_graph_model_example.png)
 
 Let's go through the above Property Graph Model together. The model has 2 nodes
 tagged with label _Person. Person_ nodes also have properties _name_ and _age._ There is
@@ -100,7 +100,7 @@ However, since this data is in CSV format, it does not benefit us too much :).
 With a little magic, we import the data into the database and transform it into the
 following Graph Property Model.
 
-![movies_schema.png](..%2Fdocs%2Fassets%2Fimages%2Fmovies_schema.png)
+![movies_schema.png](/blog/docs/assets/images/movies_schema.png)
 
 As seen from the graph everything is centered around movies.
 We have _Movie_ nodes with 7 different types of outgoing relationships _– RATED,

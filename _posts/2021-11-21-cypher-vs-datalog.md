@@ -36,7 +36,7 @@ model.
 If you want to learn more about how to import relational data into Neo4j I recommend to check out their official
 tutorial.
 
-![graph schema](/blog/assets/images/nwind_graph_schema.drawio.png)
+![graph schema](/blog/docs/assets/images/nwind_graph_schema.drawio.png)
 
 # Import to XTDB
 
