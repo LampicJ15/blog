@@ -26,7 +26,7 @@ Although the Northwind data set is often used to demonstrate SQL and relational 
 data as a graph.
 For our purposes, we will use a subset of the dataset (as shown in the figure below).
 
-![](../docs/assets/images/dataset_schema.png)
+![dataset schema](/blog/assets/images/dataset_schema.png)
 
 # Import to Neo4j
 
@@ -36,7 +36,7 @@ model.
 If you want to learn more about how to import relational data into Neo4j I recommend to check out their official
 tutorial.
 
-![](../docs/assets/images/nwind_graph_schema.drawio.png)
+![graph schema](/blog/assets/images/nwind_graph_schema.drawio.png)
 
 # Import to XTDB
 
@@ -74,7 +74,6 @@ here).
 ### Cypher
 
 ```cypher
-
 MATCH (:Product {productName: 'Chocolade'})-[:PART_OF]->(category:Category)
 RETURN category.categoryName AS categoryName
 ```
@@ -160,8 +159,7 @@ ORDER BY company ASC
 ### Cypher
 
 ```
-MATCH (:Category {categoryName: "Produce"})<--(:Product)<--
-(supplier:Supplier)
+MATCH (:Category {categoryName: "Produce"})<--(:Product)<--(supplier:Supplier)
 RETURN DISTINCT supplier.companyName as produceSuppliers
 ```
 ### Datalog
