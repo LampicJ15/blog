@@ -26,7 +26,7 @@ Although the Northwind data set is often used to demonstrate SQL and relational 
 data as a graph.
 For our purposes, we will use a subset of the dataset (as shown in the figure below).
 
-![dataset schema](docs/assets/images/dataset_schema.png)
+![dataset schema](/blog/docs/assets/images/dataset_schema.png)
 
 # Import to Neo4j
 
