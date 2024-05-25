@@ -1,4 +1,4 @@
 ---
-title: Jan Lampič
+title: Home
 ---
 
