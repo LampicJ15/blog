@@ -4,4 +4,4 @@ title: Resources
 permalink: /resources/
 ---
 
-To so resourci
+This page is dedicated to the valuable resources I've found along the way.
