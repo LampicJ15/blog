@@ -26,7 +26,7 @@ Although the Northwind data set is often used to demonstrate SQL and relational 
 data as a graph.
 For our purposes, we will use a subset of the dataset (as shown in the figure below).
 
-![dataset_schema.png](images/dataset_schema.png)
+![dataset_schema.png](../docs/assets/images/dataset_schema.png)
 
 # Import to Neo4j
 
@@ -36,7 +36,7 @@ model.
 If you want to learn more about how to import relational data into Neo4j I recommend to check out their official
 tutorial.
 
-![nowrthiwnd_graph_schema.drawio.png](images/nowrthiwnd_graph_schema.drawio.png)
+![nowrthiwnd_graph_schema.drawio.png](../docs/assets/images/nowrthiwnd_graph_schema.drawio.png)
 
 # Import to XTDB
 
